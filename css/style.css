@@ -15,7 +15,12 @@ h1 {
     width: 100px;
     border-radius: 50%;
     background-color: red;
-    text-align: center;
-    line-height: 85px;
+
     margin: auto;
+    font-weight: bold;
+    font-size: 22px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
