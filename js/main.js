@@ -1,5 +1,9 @@
 'use strict'
 
 function onBallClick() {
-    console.log('check')
+    var elBall = document.querySelector('.ball')
+    var size = +elBall.innerText + 50
+    elBall.style.height = size + 'px'
+    elBall.style.width = size + 'px'
+    elBall.innerText =  size
 }
