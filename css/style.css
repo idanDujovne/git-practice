@@ -9,3 +9,13 @@ body {
 h1 {
     color: aliceblue;
 }
+
+.ball {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+    text-align: center;
+    line-height: 85px;
+    margin: auto;
+}
